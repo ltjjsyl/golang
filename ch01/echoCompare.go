@@ -15,8 +15,8 @@ func main() {
 		sep = " "
 	}
 
-	fmt.Printf("method1: %v time=%v\n", s, time.Since(start1).Seconds())
+	fmt.Printf("method1: %v time=%.2fs\n", s, time.Since(start1).Seconds())
 
 	start2 := time.Now()
-	fmt.Printf("method2: %v time=%v\n", strings.Join(os.Args[0:], " "), time.Since(start2).Seconds())
+	fmt.Printf("method2: %v time=%.2fs\n", strings.Join(os.Args[0:], " "), time.Since(start2).Seconds())
 }
