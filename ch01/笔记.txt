@@ -4,3 +4,9 @@ windows终端情况下请使用 ctrl+z
 
 文件的是直接 
 cat input | go run main.go
+
+
+命令
+gofmt -s -w  *.go
+go run *.go args
+go build *.go
