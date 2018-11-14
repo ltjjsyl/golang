@@ -1,0 +1,6 @@
+输入终止EOF
+linux终端情况下请使用 ctrl+d
+windows终端情况下请使用 ctrl+z
+
+文件的是直接 
+cat input | go run main.go
